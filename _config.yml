@@ -1,0 +1,22 @@
+# Site settings
+title: Negative Split Running
+description: Friendly, personalised online and in-person running coaching for all levels. From your first parkrun to your fastest marathon.
+author: Tom
+
+# Production URL — used for canonical links and Open Graph
+# If serving via custom domain (negativesplitrunning.co.uk), baseurl stays empty.
+# If testing on USERNAME.github.io/REPO-NAME, set baseurl: "/REPO-NAME"
+url: "https://www.negativesplitrunning.co.uk"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - .bundle
