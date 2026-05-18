@@ -1,5 +1,5 @@
 /* =========================================================
-   Negative Split Running — main stylesheet
+   Negative Split Running: main stylesheet
    Editorial guest-guide aesthetic, burnt orange accent
    ========================================================= */
 
@@ -490,6 +490,77 @@ details p:last-child { margin-bottom: 0; }
   color: var(--ink-soft);
   font-weight: 600;
   letter-spacing: .04em;
+}
+
+/* ----- Testimonials carousel ----- */
+.testimonials-carousel { position: relative; }
+
+.testimonials-track .quote {
+  display: none;
+  margin-bottom: 0;
+}
+
+.testimonials-track .quote.active { display: block; }
+
+.carousel-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.1rem;
+}
+
+.carousel-controls[hidden] { display: none; }
+
+.carousel-btn {
+  background: transparent;
+  border: 1px solid var(--rule);
+  color: var(--ink-soft);
+  font-family: inherit;
+  font-size: .82rem;
+  font-weight: 500;
+  padding: .4rem .9rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all .15s;
+}
+
+.carousel-btn:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.carousel-btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.carousel-dots {
+  display: flex;
+  gap: .45rem;
+  align-items: center;
+}
+
+.carousel-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--rule);
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+  transition: background .15s, transform .15s;
+}
+
+.carousel-dot.active {
+  background: var(--accent);
+  transform: scale(1.2);
+}
+
+.carousel-dot:hover { background: var(--ink-soft); }
+
+@media (max-width: 480px) {
+  .carousel-btn { font-size: .78rem; padding: .35rem .75rem; }
 }
 
 /* ----- Section divider illustration ----- */
