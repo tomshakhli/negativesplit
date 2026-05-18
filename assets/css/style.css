@@ -53,6 +53,17 @@ h2 {
   margin-top: .4rem;
 }
 
+section > h2::after {
+  content: '';
+  display: block;
+  width: 52px;
+  height: 3px;
+  background: var(--accent);
+  margin-top: .7rem;
+  margin-bottom: 0.2rem;
+  border-radius: 2px;
+}
+
 h3 {
   font-size: 1.15rem;
   font-weight: 600;
@@ -70,13 +81,24 @@ a {
 a:hover { border-bottom-color: var(--accent); }
 
 .eyebrow {
-  display: inline-block;
-  font-size: .75rem;
+  display: inline-flex;
+  align-items: center;
+  font-size: .8rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: .18em;
   color: var(--accent);
   margin-bottom: .6rem;
+}
+
+.eyebrow::before {
+  content: '';
+  display: inline-block;
+  width: 32px;
+  height: 2px;
+  background: var(--accent);
+  margin-right: .7rem;
+  border-radius: 1px;
 }
 
 .lede {
@@ -170,7 +192,7 @@ section:first-of-type { padding-top: 2rem; }
 
 .section-nav a {
   color: var(--ink-soft);
-  font-size: .85rem;
+  font-size: 1rem;
   font-weight: 500;
   border: 0;
   padding-bottom: 2px;
@@ -201,7 +223,7 @@ section:first-of-type { padding-top: 2rem; }
   font-size: .7rem;
   text-transform: uppercase;
   letter-spacing: .14em;
-  color: var(--ink-soft);
+  color: var(--accent);
   font-weight: 600;
   margin-bottom: .15rem;
 }
@@ -255,7 +277,7 @@ section:first-of-type { padding-top: 2rem; }
 
 .note {
   background: var(--paper);
-  border-left: 3px solid var(--accent);
+  border-left: 4px solid var(--accent);
   border-radius: 4px;
   padding: .9rem 1.1rem;
   font-size: .95rem;
@@ -291,6 +313,7 @@ section:first-of-type { padding-top: 2rem; }
 .card h3 {
   margin-top: 0;
   margin-bottom: .5rem;
+  color: var(--accent);
 }
 
 .card p:last-child { margin-bottom: 0; }
@@ -467,7 +490,7 @@ details p:last-child { margin-bottom: 0; }
 /* ----- Testimonial ----- */
 .quote {
   background: var(--paper);
-  border-left: 3px solid var(--accent);
+  border-left: 4px solid var(--accent);
   border-radius: 4px;
   padding: 1.2rem 1.4rem;
   margin-bottom: 1rem;
