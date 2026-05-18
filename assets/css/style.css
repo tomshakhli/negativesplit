@@ -306,6 +306,44 @@ section:first-of-type { padding-top: 2rem; }
   height: auto;
 }
 
+/* ----- About layout (text + sidebar illustration) ----- */
+.about-layout {
+  display: grid;
+  grid-template-columns: 1fr 240px;
+  gap: 2rem;
+  align-items: start;
+}
+
+.about-text p:last-child { margin-bottom: 0; }
+
+.about-illus {
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  position: sticky;
+  top: 120px;
+}
+
+.about-illus svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 720px) {
+  .about-layout {
+    grid-template-columns: 1fr;
+    gap: 1.4rem;
+  }
+  .about-illus {
+    position: static;
+    max-width: 280px;
+    margin: 0 auto;
+  }
+}
+
 /* ----- Cards ----- */
 .card {
   background: var(--paper);

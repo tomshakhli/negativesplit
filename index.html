@@ -142,15 +142,82 @@ description: Friendly, personalised online and in-person running coaching for al
 <section id="about">
   <span class="eyebrow">About</span>
   <h2>A bit about me</h2>
-  <p class="lede">I'm a qualified Coach in Running Fitness (CiRF), currently working through further modules with UK Athletics. I coach at a London club founded in 1981, and independently for runners further afield.</p>
 
-  <p>Here's something that bothers me about a lot of coaching. Many coaches simply pass on whatever training they did as runners, treating it as the way, regardless of whether it actually worked for them. Every runner is different though. Your physiology, your life, your injury history, your time available, how your body responds to load. The fundamentals of good training are well-established but how you apply them has to fit the person doing the running.</p>
+  <div class="about-layout">
+    <div class="about-text">
+      <p class="lede">I'm a qualified Coach in Running Fitness (CiRF), currently working through further modules with UK Athletics. I coach at a London club founded in 1981, and independently for runners further afield.</p>
 
-  <p>That's why I keep learning. The Norwegian sub-threshold model, the Easy Interval Method, Canova full spectrum, traditional periodisation, the research on lactate dynamics and recovery: I've read it, applied it to myself, and tested how each approach holds up with the runners I coach. The skill is knowing what to draw from where, and when.</p>
+      <p>Every runner is different. Your physiology, your life, your injury history, your time available, how your body responds to load. My job (and the part I enjoy the most) is getting to know you and solving the training puzzle that fits. The fundamentals of good training are well-established, but how you apply them has to fit the person doing the running.</p>
 
-  <p>That depth speeds things up for the runners I work with. Breakthroughs come earlier when the training is genuinely built around you rather than a template downloaded from somewhere. The right combination of stimulus and recovery, applied consistently, is where progress lives.</p>
+      <p>That's why I keep learning. The Norwegian sub-threshold model, the Easy Interval Method, Canova full spectrum, traditional periodisation, the research on lactate dynamics and recovery: I've read it, applied it to myself, and tested how each approach holds up with the runners I coach. The skill is knowing what to draw from where, and when.</p>
 
-  <p>Most of my runners are amateurs. Some chase a sub-20 parkrun, others a Good For Age marathon spot. A few just want to enjoy the sport without getting hurt. The principles travel across all of them: train sustainably, learn the craft, race regularly, and don't take it too seriously.</p>
+      <p>A note of caution: be wary of any coach offering a one-size-fits-all programme, or one built around what they themselves did as runners. That's a shortcut to training that wasn't really designed for you.</p>
+
+      <p>That depth speeds things up for the runners I work with. Breakthroughs come earlier when the training is genuinely built around you rather than a template downloaded from somewhere. The right combination of stimulus and recovery, applied consistently, is where progress lives.</p>
+
+      <p>Most of my runners are amateurs. Some chase a sub-20 parkrun, others a Good For Age marathon spot. A few just want to enjoy the sport without getting hurt. The principles travel across all of them: train sustainably, learn the craft, race regularly, and don't take it too seriously.</p>
+    </div>
+
+    <div class="about-illus">
+      <svg viewBox="0 0 240 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Aerial view of a running track at sunrise with two runners on the curve">
+        <defs>
+          <linearGradient id="trackSky" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#e8dfd1"/>
+            <stop offset="100%" stop-color="#fbf6ee"/>
+          </linearGradient>
+        </defs>
+
+        <!-- Sky -->
+        <rect width="240" height="180" fill="url(#trackSky)"/>
+
+        <!-- Sun -->
+        <circle cx="180" cy="105" r="50" fill="#c2410c" opacity="0.2"/>
+        <circle cx="180" cy="105" r="30" fill="#c2410c" opacity="0.85"/>
+
+        <!-- Distant grandstand silhouette -->
+        <rect x="0" y="155" width="240" height="20" fill="#5a7a5f" opacity="0.5"/>
+
+        <!-- Track infield (green) -->
+        <ellipse cx="120" cy="280" rx="180" ry="80" fill="#4a6b4f"/>
+
+        <!-- Track lanes (concentric orange ovals) -->
+        <ellipse cx="120" cy="280" rx="170" ry="70" fill="none" stroke="#c2410c" stroke-width="3" opacity="0.85"/>
+        <ellipse cx="120" cy="280" rx="155" ry="60" fill="none" stroke="#c2410c" stroke-width="2.5" opacity="0.7"/>
+        <ellipse cx="120" cy="280" rx="140" ry="50" fill="none" stroke="#c2410c" stroke-width="2" opacity="0.55"/>
+        <ellipse cx="120" cy="280" rx="125" ry="42" fill="none" stroke="#c2410c" stroke-width="1.5" opacity="0.4"/>
+
+        <!-- Runner 1 (foreground, on the curve) -->
+        <g transform="translate(95, 215)">
+          <!-- back leg -->
+          <path d="M 0 16 L -7 28" stroke="#2b2622" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+          <path d="M -7 28 L -10 36" stroke="#2b2622" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+          <!-- back arm -->
+          <path d="M 0 4 L -7 8" stroke="#c2410c" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+          <path d="M -7 8 L -6 16" stroke="#c2410c" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+          <!-- torso -->
+          <path d="M -2 -3 L 4 16 L 0 16 L -6 -1 Z" fill="#c2410c"/>
+          <!-- head -->
+          <circle cx="0" cy="-7" r="4.5" fill="#2b2622"/>
+          <!-- front arm -->
+          <path d="M 3 4 L 10 7" stroke="#c2410c" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+          <path d="M 10 7 L 9 14" stroke="#c2410c" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+          <!-- front leg -->
+          <path d="M 3 16 L 10 24" stroke="#2b2622" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+          <path d="M 10 24 L 16 27" stroke="#2b2622" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+        </g>
+
+        <!-- Runner 2 (further along, smaller, faded) -->
+        <g transform="translate(155, 235)" opacity="0.75">
+          <path d="M 0 14 L -6 24" stroke="#2b2622" stroke-width="2" fill="none" stroke-linecap="round"/>
+          <path d="M -6 24 L -8 30" stroke="#2b2622" stroke-width="2" fill="none" stroke-linecap="round"/>
+          <path d="M -2 -2 L 3 14 L 0 14 L -5 0 Z" fill="#2b2622"/>
+          <circle cx="0" cy="-5" r="3.5" fill="#2b2622"/>
+          <path d="M 3 14 L 9 22" stroke="#2b2622" stroke-width="2" fill="none" stroke-linecap="round"/>
+          <path d="M 9 22 L 14 24" stroke="#2b2622" stroke-width="2" fill="none" stroke-linecap="round"/>
+        </g>
+      </svg>
+    </div>
+  </div>
 </section>
 
 <section id="approach">
