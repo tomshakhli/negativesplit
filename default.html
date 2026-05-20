@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="B7v6mNz3cdk6vLakqTgy4nkcQgeyoQ4k5eLpH0GM1UY">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="{{ page.title | default: site.title }}">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+  <meta name="twitter:card" content="summary">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+  <!-- Structured data: local business / running coach -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "{{ site.url }}/#business",
+    "name": "Negative Split Running",
+    "description": "Friendly, personalised online and in-person running coaching for all levels. From your first parkrun to your fastest marathon.",
+    "url": "{{ site.url }}",
+    "email": "tom@negativesplitrunning.co.uk",
+    "areaServed": [
+      {"@type": "City", "name": "London"},
+      {"@type": "Country", "name": "United Kingdom"},
+      {"@type": "Place", "name": "Worldwide (online coaching)"}
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London",
+      "addressCountry": "GB"
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "Tom",
+      "jobTitle": "Running Coach",
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Coach in Running Fitness (CiRF)",
+          "credentialCategory": "Professional Certification",
+          "recognizedBy": {"@type": "Organization", "name": "UK Athletics"}
+        }
+      ]
+    },
+    "knowsAbout": [
+      "Marathon training",
+      "Half marathon training",
+      "5K and 10K training",
+      "Running technique and form",
+      "Sub-threshold training",
+      "Norwegian Singles method",
+      "Easy Interval Method",
+      "Injury prevention",
+      "Race preparation"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Running coaching services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "1-2-1 coaching",
+            "description": "Ongoing month-by-month coaching with regular feedback on every run."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Personalised training plan",
+            "description": "A complete, individualised plan written to your race, timeline, availability, and current fitness."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "One-hour coach call",
+            "description": "A focused conversation about training principles, race prep, injury, motivation, or anything else."
+          }
+        }
+      ]
+    }
+  }
+  </script>
+</head>
+<body>
+  {% include header.html %}
+
+  <main>
+    {{ content }}
+  </main>
+
+  {% include footer.html %}
+
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>
