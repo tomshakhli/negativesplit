@@ -2,7 +2,7 @@
 title: Don't be afraid of running in the heat
 description: I used to dread London heatwaves. Then a hot summer of training, ice cream and wine left me flying in cooler races. How to use the heat rather than fear it.
 topic: Training
-order: 8
+order: 10
 ---
 
 I used to dread the summer, particularly the heatwaves that seem to hit London most years. I have got up at ungodly hours in an attempt to 'beat the heat'.

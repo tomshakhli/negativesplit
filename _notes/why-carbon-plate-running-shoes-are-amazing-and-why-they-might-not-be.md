@@ -2,7 +2,7 @@
 title: Why carbon plate running shoes are amazing, and why they might not be
 description: I'm an unashamed fan and I'll be racing in mine. But I'm wary of what everyday use does to our feet, and the research is starting to agree.
 topic: Kit
-order: 7
+order: 9
 ---
 
 Like a first kiss, the first time you experience running in a carbon plate running shoe is something that lingers long in the memory. I remember getting the original Nike Vaporfly 4%, which at the time was pretty much the only carbon plate shoe on the market (unlike now where most brands have several in their line ups). The 4% referred to the average measured improvement which studies showed in [running economy](/post/a-glossary-of-running). It was like strapping two jet packs to my feet. Having only worn regular midsole shoes before, these shoes felt like the equivalent of putting on the Batsuit or Superman's cape, granting upon the wearer the ability to run fast for seemingly much less effort.
@@ -21,7 +21,7 @@ The use of carbon plates in running shoes did not start in the mid-2010s. In fac
 
 If it all sounds a bit, well, mechanical, then that's because it is. It may not feel obvious, but on very minor levels, these shoes are providing our feet with tiny supports which are causing us to run in a way that is quite unlike our natural footstrike. This is not to fetishise the 'barefoot' running trend that took off in the early 2010s. But I have long suspected, based on my own experience and anecdotally from others, that overuse of carbon plate shoes can lead to problems elsewhere. For some, it's the stiffness of the shoe itself, which doesn't allow the foot to do its natural flex with every step. For others, it's the aggression of the 'rocker' which causes runners to tip further forward on their foot and place more pressure on that part than it can cope with. I've heard of some runners having problems with their achilles, the whip of each step causing the tendon to become overloaded.
 
-This is now becoming the focus of researchers. It's early days and the research is patchy, but there are signs that there is evidence now to back up my view. A paper in *Sports Medicine*, entitled "[Bone Stress Injuries in Runners Using Carbon Fiber Plate Footwear](https://link.springer.com/article/10.1007/s40279-023-01818-z)" presents a case series of navicular bone stress injuries in runners training in these shoes, from a range of running backgrounds.
+This is now becoming the focus of researchers. It's early days and the research is patchy. Even so, the evidence is starting to back up my hunch. A paper in *Sports Medicine*, entitled "[Bone Stress Injuries in Runners Using Carbon Fiber Plate Footwear](https://link.springer.com/article/10.1007/s40279-023-01818-z)" presents a case series of navicular bone stress injuries in runners training in these shoes, from a range of running backgrounds.
 
 ## So how should you use them?
 

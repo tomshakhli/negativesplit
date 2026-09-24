@@ -2,18 +2,18 @@
 title: What is overtraining (and why runners need to avoid it)?
 description: I chose two more months of marathon training over racing when I was fit. I ran 2:58:54 and hated every minute. What overtraining looks like, from the inside.
 topic: Training
-order: 3
+order: 5
 ---
 
 In early 2021 I was training for a marathon. Denied of racing in 2020 due to the pandemic, I, along with some of my club mates, were signed up for the Richmond marathon. It was a bit of a punt as there was still uncertainty due to ongoing lockdowns. Unfortunately with 3 weeks to go to race day, the event was cancelled. However, a smaller event had popped up a week later, on private land at Dorney Lake, making it more likely to go ahead.
 
 Faced with the decision of carrying on training for the rescheduled marathon two months later, or signing up for this new race (with the possibility that it could be cancelled), I opted for the former. With a couple more months to train, I figured, I could grow my fitness and guarantee a faster marathon time for my efforts. My club mates thought differently, and signed up for Dorney Lake.
 
-Their results came in, and they smashed it, all hitting their target times. Given that many of us had trained together and generally been on the same level, I assumed that their times would serve as a benchmark for me to be able to improve upon with the benefit of more training.
+Their results came in and they smashed it. Every one of them hit their target time. Given that many of us had trained together and generally been on the same level, I assumed that their times would serve as a benchmark for me to be able to improve upon with the benefit of more training.
 
 However, as the weeks went on, I noticed that I was feeling more and more sluggish. The long runs in particular were really starting to drag. While I didn't pick up any injuries, I often felt sore, and nothing seemed quite as fluid or sharp as it had several weeks earlier.
 
-By the time the marathon came around I was flat. I'd run myself into the ground in training and my body wanted a break, not to somehow elevate itself to a new performance level. I ended up running 2:58:54, at least 5 minutes slower than I'd hoped for, and I pretty much hated every minute of it.
+By the time the marathon came around I was flat. I'd run myself into the ground in training and my body wanted a break, not to somehow elevate itself to a new performance level. I ended up running 2:58:54, at least 5 minutes slower than I'd hoped for. I hated pretty much every minute of it.
 
 I had missed my window to capitalise on peak fitness earlier in the year, and instead chosen to race while in a state of overtraining. In addition to declining performance, I ticked all the other boxes of overtraining:
 

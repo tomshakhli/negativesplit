@@ -531,3 +531,35 @@ a:focus-visible, summary:focus-visible, .btn:focus-visible {
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
+
+/* Tables in notes (e.g. training weeks) */
+.note-body table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  margin: 2.2rem 0;
+  border-top: 2px solid var(--ink);
+}
+.note-body th,
+.note-body td {
+  text-align: left;
+  vertical-align: top;
+  padding: 0.75rem 1rem 0.75rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+.note-body th {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+.note-body td:first-child { font-weight: 600; white-space: nowrap; }
+.note-body tr:last-child td { border-bottom: 2px solid var(--ink); }
+
+@media (max-width: 600px) {
+  .note-body table { display: block; overflow-x: auto; font-size: 0.88rem; }
+  .note-body td { min-width: 9rem; }
+  .note-body td:first-child { min-width: 0; }
+}

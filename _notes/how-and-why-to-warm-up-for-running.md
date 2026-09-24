@@ -2,7 +2,7 @@
 title: How (and why) to properly warm up for running
 description: If the first mile of a race feels like a struggle, your body is playing catch-up. Three warm-ups, scaled to the run, including the one I use before races.
 topic: Racing
-order: 6
+order: 8
 ---
 
 If you've ever started a race (or any run for that matter) and shortly into it felt like it's a struggle, then the chances are that you've just overshot things a little and your body is playing catch-up. To avoid this feeling, a warm up that eases you into your run will go a long way. This means though that the more intense your planned run or race, the more you need to warm up.
@@ -17,7 +17,7 @@ Follow the above but once the dynamic movements are done, perform 3-4 strides wh
 
 ## For a race
 
-Racing requires a more vigorous warm up. It may seem counterproductive to expend energy prior to a race, but you should consider it more that you are tapping into and releasing energy that you'll later be able to deploy in good measure. I really like the warm-up prescribed by Tom 'Tinman' Schwartz. It's best done so that you finish it with 20-30 minutes to spare before your race starts. That way you get the benefit of the activation without any lingering fatigue. It goes as follows:
+Racing requires a more vigorous warm up. It may seem counterproductive to spend energy before a race. Think of it instead as releasing energy you'll be able to deploy later, in good measure. I really like the warm-up prescribed by Tom 'Tinman' Schwartz. It's best done so that you finish it with 20-30 minutes to spare before your race starts. That way you get the benefit of the activation without any lingering fatigue. It goes as follows:
 
 - Warm up jog (5-10 minutes)
 - Run at tempo effort, somewhere between your half marathon and marathon pace (5 minutes)
@@ -25,4 +25,4 @@ Racing requires a more vigorous warm up. It may seem counterproductive to expend
 - Race pace 100m strides (5 x 30 seconds with 50m recovery jog)
 - Sprints (5 x 10 seconds with 20 seconds recovery jog)
 
-Try this out before your next race. You may not feel amazing during the warm up but it will blast the cobwebs away so that you hopefully don't feel them at the start of the race.
+Try it before your next race. You may not feel amazing during the warm up. That's fine. Better the cobwebs go now than in the first kilometre.

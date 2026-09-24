@@ -2,7 +2,7 @@
 title: A glossary of running
 description: My take on running terminology, from aerobic threshold to VO2 max. Plain definitions of the words coaches and training plans throw at you.
 topic: Reference
-order: 10
+order: 12
 ---
 
 This is my take on popular (and perhaps not-so-popular) running terminology. If there's a term that you've come across and it's not in here, [let me know](/#contact) and I'll try to add it in.

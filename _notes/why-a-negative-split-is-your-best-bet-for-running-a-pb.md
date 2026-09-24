@@ -2,7 +2,7 @@
 title: Why a negative split is your best bet for running a PB
 description: My first London Marathon started at 6:40 miles and ended slower than 8s. The one where I held back gave me a PB. The maths of pacing, from both ends.
 topic: Racing
-order: 2
+order: 4
 image: /assets/images/break-marathon.jpg
 ---
 

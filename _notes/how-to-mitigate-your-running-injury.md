@@ -2,7 +2,7 @@
 title: How to mitigate your running injury
 description: When a niggle appears, the best thing you can do is almost nothing. How to catch injuries early, get through the acute phase and rehab without making it worse.
 topic: Injury
-order: 9
+order: 11
 ---
 
 Running is an attritional sport. The impact of striking the ground over and over again places stress on the body and the accumulation of this stress can lead to injuries. Let's discuss what happens when the inevitable happens and you find yourself injured, and what can be done to reduce your time spent on the sidelines.
@@ -16,3 +16,5 @@ Take things one day at a time here. There's nothing wrong with heading out of th
 Once the acute phase of the injury is over (this could be anything from 2-7 days), then it's a question of how serious the injury is. If it's minor then you may be able to start light jogging as above. If it's more serious then you need to enter into a period of rehab. Now is the time you can begin to work on it, but don't overdo it. Nor should you assume that the area where you feel the injury is the exact location of the root cause. Any rehab you do such as strengthening or stretching should encompass the area beyond where you feel pain. For example if you have achilles pain then working on your calf will almost certainly assist with the rehab.
 
 Of course if you are worried about your injury or it persists then you should consider consulting with a sports physio. I recommend checking beforehand that they have experience working with runners so that they are more likely to be familiar with the types of injuries that we get.
+
+A niggle ignored for a week can cost you a month. A niggle rested for three days usually costs you three days.
