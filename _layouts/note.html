@@ -1,0 +1,51 @@
+---
+layout: default
+---
+{%- assign others = site.notes | where_exp: "n", "n.url != page.url" | sort: "order" -%}
+<article class="note">
+  <header class="note-head">
+    <a class="note-back" href="{{ '/notes/' | relative_url }}">Notes</a>
+    <span class="note-topic">{{ page.topic }}</span>
+    <h1 class="note-title">{{ page.title }}</h1>
+    {%- if page.description %}<p class="note-standfirst">{{ page.description }}</p>{% endif %}
+    <p class="note-byline">Tom, CiRF running coach</p>
+  </header>
+
+  <div class="note-body">
+    {{ content }}
+  </div>
+
+  <aside class="note-coach">
+    <p>If this is the kind of thinking you'd like applied to your own training, I coach runners in London and online.</p>
+    <a class="btn" href="{{ '/#coaching' | relative_url }}">See coaching options</a>
+  </aside>
+</article>
+
+<section class="note-more" aria-labelledby="more-notes">
+  <div class="note-more-inner">
+    <h2 id="more-notes" class="note-more-title">More notes</h2>
+    <ul class="notes-list compact">
+      {%- for n in others limit: 3 %}
+      <li>
+        <a href="{{ n.url | relative_url }}">
+          <span class="nl-topic">{{ n.topic }}</span>
+          <span class="nl-title">{{ n.title }}</span>
+          <span class="nl-standfirst">{{ n.description }}</span>
+        </a>
+      </li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ page.description | jsonify }},
+  "author": {"@type": "Person", "name": "Tom", "url": "{{ site.url }}/"},
+  "publisher": {"@id": "{{ site.url }}/#business"},
+  "mainEntityOfPage": "{{ site.url }}{{ page.url }}"
+}
+</script>

@@ -1,0 +1,11 @@
+{%- comment -%}
+  Usage in a note: {% include note-figure.html src="/assets/images/notes/file.png" caption="Caption text" alt="Description" %}
+  The figure only appears once the image file exists in the repo, so a note never shows a broken image.
+{%- endcomment -%}
+{%- assign fig = site.static_files | where: "path", include.src | first -%}
+{%- if fig -%}
+<figure class="note-figure">
+  <img src="{{ include.src | relative_url }}" alt="{{ include.alt | default: include.caption }}" loading="lazy">
+  {%- if include.caption %}<figcaption>{{ include.caption }}</figcaption>{% endif %}
+</figure>
+{%- endif -%}

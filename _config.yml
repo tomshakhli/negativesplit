@@ -13,10 +13,26 @@ baseurl: ""
 markdown: kramdown
 permalink: pretty
 
+# Notes: the writing section. Each file in _notes/ becomes a page.
+# URLs keep the old Wix pattern (/post/the-file-name) so existing
+# links and Google rankings carry over.
+collections:
+  notes:
+    output: true
+    permalink: /post/:name
+
+defaults:
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: note
+
 # Exclude from processing
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - HOW-TO-ADD-A-NOTE.md
   - vendor
   - .bundle

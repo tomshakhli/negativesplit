@@ -1,5 +1,5 @@
 <header class="header">
-  <a href="{{ '/' | relative_url }}" class="brand-link" aria-label="Negative Split Running">
+  <a href="{{ '/' | relative_url }}" class="brand-link" aria-label="Negative Split Running home">
     <span class="logo">
       <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <polygon points="10,5 10,47 97,26" fill="#1a1a1a"/>
@@ -7,13 +7,13 @@
       </svg>
     </span>
   </a>
-  <nav>
+  <nav aria-label="Main">
     <ul class="nav-list">
-      <li><a href="#about">About</a></li>
-      <li><a href="#approach">Approach</a></li>
-      <li><a href="#coaching">Coaching</a></li>
-      <li><a href="#testimonials">Reviews</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="{{ '/#about' | relative_url }}">About</a></li>
+      <li><a href="{{ '/#coaching' | relative_url }}">Coaching</a></li>
+      <li><a href="{{ '/marathon/' | relative_url }}"{% if page.url == '/marathon/' %} aria-current="page"{% endif %}>Marathon</a></li>
+      <li><a href="{{ '/notes/' | relative_url }}"{% if page.url == '/notes/' or page.collection == 'notes' %} aria-current="page"{% endif %}>Notes</a></li>
+      <li><a href="{{ '/#contact' | relative_url }}">Contact</a></li>
     </ul>
   </nav>
 </header>

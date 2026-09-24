@@ -1,0 +1,32 @@
+---
+layout: default
+title: Notes on running and training | Negative Split Running
+description: Practical writing on running training, racing, form and injury from Tom, a CiRF-qualified running coach in London.
+---
+{%- assign notes = site.notes | sort: "order" -%}
+<section class="notes-hero">
+  <div class="notes-hero-inner">
+    <h1 class="notes-heading">Notes</h1>
+    <p class="notes-intro">Things I've learned from coaching runners and from getting my own training wrong. Written when there's something worth saying, not to a schedule.</p>
+  </div>
+</section>
+
+<section class="notes-index" aria-label="All notes">
+  <ul class="notes-list">
+    {%- for n in notes %}
+    <li>
+      <a href="{{ n.url | relative_url }}">
+        <span class="nl-topic">{{ n.topic }}</span>
+        <span class="nl-title">{{ n.title }}</span>
+        <span class="nl-standfirst">{{ n.description }}</span>
+      </a>
+    </li>
+    {%- endfor %}
+  </ul>
+</section>
+
+<section class="cta" id="contact">
+  <h2>Let's <span class="italic">talk.</span></h2>
+  <p>If you'd like this thinking applied to your own running, drop me an email and tell me what you're working towards.</p>
+  <a href="mailto:tom@negativesplitrunning.co.uk" class="btn">Email Tom</a>
+</section>
