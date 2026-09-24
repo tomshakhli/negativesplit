@@ -11,9 +11,9 @@ There isn't one. That's rather the point.
 
 ## Two sessions a day, minus one
 
-The Norwegian method has a slight image problem. Mention it and people picture Jakob Ingebrigtsen on a track in Oslo, a coach pricking his earlobe between reps to check his lactate, two threshold sessions in a single day. All of it is real and all of it works. None of it describes the life of someone with a job, a commute and a child who wakes up at 5am.
+The Norwegian method has a slight image problem. Mention it and people picture Jakob Ingebrigtsen on a track in Sadnes, pricking his fingertip between reps to check his lactate, two threshold sessions in a single day. All of it is real and all of it works. None of it describes the life of someone with a job, a commute, etc.
 
-Norwegian Singles is what happens when you keep the principle and lose the logistics. It was pieced together by an amateur runner who posted his training online under the name Sirpoc. He trained once a day. It worked remarkably well and plenty of other people with day jobs started copying him. Credit where it's due: it's one of the more useful things to come out of an internet forum.
+Norwegian Singles is what happens when you keep the principle and lose the logistics. It was pieced together by an amateur runner who posted his training on LetsRun under the name Sirpoc. He trained once a day. It worked remarkably well and plenty of other people with day jobs started copying him. Credit where it's due: it's one of the more useful things to come out of an internet forum.
 
 ## What it actually is
 
@@ -46,7 +46,7 @@ The fix is simple. Run to effort rather than pace, and check yourself with the [
 
 ## Why boring works
 
-Hard sessions make you fit for a week. Repeatable ones make you fit for a year.
+Hard sessions make you fit for a week. Repeatable ones make you fit for years.
 
 A traditional track session leaves you on the floor, then costs you two or three days of feeling beaten up. Sub-threshold work leaves you tired but intact. You can do it again in 48 hours, and again two days after that. Over months, that adds up to far more quality running than a diet of hard sessions ever allows. The easy days aren't filler either. They're doing the unglamorous job of building the aerobic base that everything else sits on.
 
@@ -54,10 +54,10 @@ There's also a psychological upside. When the week is the same every week, there
 
 ## Where it falls short
 
-It isn't perfect. It would be dishonest to pretend otherwise.
+It isn't perfect, nor is it, as some claim, "the only training you need to do".
 
 It can feel monotonous. Some runners love the repetition; others are climbing the walls by week six. It's also at its best for 10k up to the marathon. If your goal is a fast 5k, you'll probably need some faster running at some point, whether that's occasional VO2 max work or, my preference, [racing regularly](/post/the-easy-interval-method-a-revolutionary-approach-to-running-training), which gives you that stimulus and a fitness check in one go. And it only works if your easy days are genuinely easy. Most runners run them too hard, which is the one mistake that unpicks everything else.
 
-For the runners I coach, Norwegian Singles is usually the backbone rather than the whole plan. What goes around it, and when, depends entirely on the person and the race.
+For the runners I coach, Norwegian Singles is usually a training block rather than the whole plan. What goes around it, and when, depends entirely on the person and the race.
 
-The session you can repeat beats the session you can survive.
+Remember: the session you can repeat beats the session you can survive.
